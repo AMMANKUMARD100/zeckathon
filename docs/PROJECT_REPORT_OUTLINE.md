@@ -7,7 +7,7 @@
 ### PAGE 1: TITLE, EXECUTIVE SUMMARY & DEMO LINK
 - **Project Title:** FinPilot AI — Evidence-Based Financial Advisory Co-pilot for SEBI RIAs
 - **Track:** Track 4 (Problem Statement 4)
-- **Mandatory Demo Video Link (Max 3 Mins):** `https://github.com/ZethetaIntern/finpilot-ai/releases/demo.mp4` (Downloadable & Public)
+- **Mandatory Demo Video Link (Max 3 Mins):** https://drive.google.com/file/d/1gIhYTZjqpyl9vej0WVKTEURlFB40O_lm/view?usp=drive_link (Downloadable & Public)
 - **Team Mapping & Submission Metadata:**
   - Team Registered Email: [Designated Team Email]
   - Origin GitHub User ID: [Team Origin ID]

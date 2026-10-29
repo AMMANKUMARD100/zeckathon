@@ -5,8 +5,8 @@
 ---
 
 ## 📹 Mandatory Submission Links
-- **Demo Video Link (Mandatory for PS4, Max 3 mins):** `https://github.com/ZethetaIntern/finpilot-ai/releases/demo.mp4` *(Downloadable public link)*
-- **GitHub Repository:** Transferred to `ZethetaIntern` per universal competition instructions.
+- **Demo Video Link (Mandatory for PS4, Max 3 mins):** [Watch & Download Demo Video](https://drive.google.com/file/d/1gIhYTZjqpyl9vej0WVKTEURlFB40O_lm/view?usp=drive_link) (`https://drive.google.com/file/d/1gIhYTZjqpyl9vej0WVKTEURlFB40O_lm/view?usp=drive_link`)
+- **GitHub Repository:** https://github.com/AMMANKUMARD100/zeckathon (Ownership to be transferred to `ZethetaIntern` per universal competition instructions)
 - **Project Report Outline:** [docs/PROJECT_REPORT_OUTLINE.md](docs/PROJECT_REPORT_OUTLINE.md) (Max 8 pages outline)
 - **Presentation Deck Outline:** [docs/PRESENTATION_SLIDES_OUTLINE.md](docs/PRESENTATION_SLIDES_OUTLINE.md) (Max 10 slides outline)
 - **Demo Video Script:** [docs/DEMO_VIDEO_SCRIPT.md](docs/DEMO_VIDEO_SCRIPT.md) (180s script)
