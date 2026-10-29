@@ -1,0 +1,177 @@
+=== PAGE 1 ===
+OFFICIAL RULEBOOK & PROBLEM STATEMENTS
+ZETHETA ALGORITHMS × IIT PATNA TRADING & INVESTMENT CLUB (TIC)
+24-HOUR HACKATHON
+1. EVENT OVERVIEW & STRUCTURE
+Zetheta Algorithms Private Limited, knowledge partner to the IIT Patna TIC Inter-Collegiate Competition, sets four
+industry-grade financial problem statements. Teams must select exactly one track and deliver a end-to-end
+quantitative solution within 24 hours using publicly sourced Indian market data.
+#
+Track Name
+Problem Statement Domain
+Team Size
+PS1
+Equity Research & Consulting
+Capital-markets infrastructure: one stock selection & IC memo
+3–4
+Members
+PS2
+Financial Risk & Fraud Analytics
+Early-warning system (EWS) for corporate distress &
+manipulation
+3–4
+Members
+PS3
+Financial Forecasting
+Quarter-end liquid fund redemption forecasting for AMC treasury
+3–4
+Members
+PS4
+AI-Powered Advisory
+Compliant AI co-pilot for a SEBI-registered Investment Adviser
+(RIA)
+3–4
+Members
+2. UNIVERSAL COMPETITION RULES
+👥 Team Eligibility & Formation
+Teams must consist of exactly 3 to 4 members. One
+problem statement must be formally declared at kick-off.
+Multi-team participation by a single individual is strictly
+prohibited.
+🌐 Data Sourcing & Data Cut-Off
+Only publicly available data may be used; every source
+must be explicitly cited. The cutoff is the last trading day
+prior to event start. Teams must acquire their own
+datasets.
+🤖 Mandatory Tool Disclosure
+AI models and LLMs are permitted and encouraged.
+However, teams must submit a declaration specifying
+exact AI tools used and their functional application.
+⚙️ Reproducibility & Integrity
+All figures, models, and tables must be 100% reproducible
+via submitted code/workbooks. Look-ahead bias or data
+leakage will result in immediate disqualification.
+🔑 Mandatory Repository Transfer Protocol: All code and models must be hosted in a public GitHub repository. Prior
+to submission, ownership of the repository MUST be transferred to GitHub User ID: ZethetaIntern. Teams must
+communicate their original User ID and one registered email address to Zetheta for team mapping.
+Zetheta × IIT Patna Fintech Competition Rulebook
+Page 1 of 4
+
+
+=== PAGE 2 ===
+3. PROBLEM STATEMENT SPECIFICATIONS (PS1 & PS2)
+PS1: Equity Research — Toll Collector of India's Capital Markets
+TRACK 1
+The Ask: Recommend which ONE of four listed capital-markets infrastructure companies a long-only fund should allocate
+₹500 crore to, supported by a 12-month target price and a defensible bear case.
+Candidate Company
+Core Business
+Key Revenue Driver
+BSE Ltd
+Stock Exchange
+Transaction (esp. derivatives) volumes
+CDSL
+Depository
+Demat accounts, transactions, KYC fees
+CAMS
+Mutual Fund RTA
+AMC Assets Under Service (AUS)
+KFin Technologies
+RTA (MF, Issuer, Global)
+AUM serviced, international expansion
+Deliverables:
+Industry Analysis: Moats, pricing power, impact of SEBI F&O curbs and fee rationalization.
+Valuation & FDD: 3-statement DCF + relative valuation (P/E, EV/EBITDA); deep dive on cash conversion, capex, and related-
+party transactions.
+Scenario Model: Bull, base, and bear case (e.g., 30% drop in derivatives turnover, 20% equity drawdown).
+IC Memo: Concise 2-page investment committee memo with position sizing and 3 key exit triggers.
+PS2: Risk & Fraud — Early-Warning System (EWS) for Default & Fraud
+TRACK 2
+The Ask: Build an Early-Warning System (EWS) that flags listed corporate borrowers heading for default or accounting
+manipulation at least 4 quarters in advance, optimized for a credit desk capacity of 5% (40/800 companies).
+Deliverables & Evaluation Benchmarks:
+Distress Model: Trained on UCI Polish/Taiwanese Bankruptcy dataset using time-aware split.
+Indian Case Test: Panel of ≥10 defaulted Indian firms (IL&FS, DHFL, Jet, etc.) vs. 30 matched sector peers across 3
+historical pre-event years.
+Manipulation Screen: Beneish M-Score, Piotroski F-Score, Altman Z-Score + soft signals (auditor resignations, promoter
+pledge ratios, rating changes).
+Explainability & Policy: SHAP value explanations per flagged firm; threshold tuning where a missed default costs 20x a
+false positive.
+Zetheta × IIT Patna Fintech Competition Rulebook
+Page 2 of 4
+
+
+=== PAGE 3 ===
+4. PROBLEM STATEMENT SPECIFICATIONS (PS3 & PS4)
+PS3: Financial Forecasting — Quarter-End AMC Redemption Forecast
+TRACK 3
+The Ask: Forecast monthly net flows for India's liquid and overnight fund categories with prediction intervals, and translate
+forecasts into an optimal cash-buffer policy to minimize idle cash drag vs. redemption penalties.
+Core Methodology & Rules:
+Forecast Engine: 3-month forward point forecasts + 80% and 95% confidence intervals comparing classical models
+(SARIMAX/ETS) against ML/DL architectures.
+Exogenous Drivers: Advance tax dates (15th Mar/Jun/Sep/Dec), banking liquidity surplus/deficit, money market yields,
+and market returns.
+Optimization Layer: Buffer rule minimizing: Cost = Idle Cash Drag + (3 × Shortfall Penalty) backtested
+over 24 months (rolling-origin).
+Fund Manager Dashboard: 1-page operational interface for first-of-the-month positioning.
+PS4: AI Advisory — Compliant Co-pilot for SEBI-Registered RIAs
+TRACK 4
+The Ask: Construct an AI co-pilot that automates client profiling, constructs goal-based mutual fund portfolios, answers
+SID/factsheet queries with page-level citations, and enforces strict SEBI suitability guardrails.
+Persona Evaluation Matrix:
+Target Persona
+Age / Income Status
+Primary Financial Goal
+Fresh Graduate
+23 yrs | ₹55k/mo take-home
+Emergency fund creation → Long-term wealth
+Young Couple
+31 yrs | Dual income, home loan
+Child education in 15 years
+Small Business
+44 yrs | Irregular cash flow
+Structured retirement at age 58
+Doctor (Patna)
+38 yrs | High income, risk-averse
+Retirement + Parent healthcare corpus
+Retiree (Chennai)
+68 yrs | ₹80L corpus + pension
+Monthly income stream for 25 years
+Aggressive Trader
+29 yrs | F&O drawdown history
+Requires suitability enforcement / risk flag
+Zetheta × IIT Patna Fintech Competition Rulebook
+Page 3 of 4
+
+
+=== PAGE 4 ===
+5. SUBMISSION GUIDELINES & ZECATHON PLATFORM
+All registration, team creation, and project submissions must occur strictly on the ZECATHON Platform. Submissions via
+email, Drive links, or social media will be disqualified immediately.
+Platform Field
+Submission Requirement
+Project Document (Required)
+Report PDF (Max 8 pages; PS1: IC Memo + Appendices) OR Presentation Deck PDF (Max
+10 slides). Must have selectable text (no scanned images).
+Supporting GitHub URL
+Public GitHub Repository URL. Ownership must be transferred to ZethetaIntern. Must
+contain reproducible code and README.
+Presentation (Optional)
+Deck PDF (Max 10 slides) if a Report PDF was uploaded as the main Project Document.
+Demo Video Link
+Mandatory for PS4 (max 3 mins), optional for PS1-3. Include downloadable video URL on
+Page 1 of Report and top of GitHub README.
+6. PRE-SUBMISSION VERIFICATION CHECKLIST
+[ ] Selectable Text: Verified that uploaded PDFs contain searchable text and are not image exports.
+[ ] File Size Ceiling: Ensured every uploaded document is under 20 MB.
+[ ] GitHub Ownership: Transferred repo ownership to ZethetaIntern and sent origin User ID + email to Zetheta.
+[ ] Video Link Embed: Verified video link is publicly accessible, downloadable, and listed on Page 1 of PDF.
+[ ] Data & AI Citations: Included comprehensive bibliography for all public data sources and AI tool disclosures.
+[ ] Single Final Submission: Confirmed submission completeness, as entries cannot be modified post-submission.
+⚠️ Hard Deadline Enforcement: Submissions close automatically at the scheduled deadline displayed on the platform
+countdown. The submit button will lock instantly. Late entries will not be evaluated under any circumstances.
+Zetheta × IIT Patna Fintech Competition Rulebook
+Page 4 of 4
+
+
