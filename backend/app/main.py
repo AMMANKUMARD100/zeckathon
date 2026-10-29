@@ -83,6 +83,12 @@ def startup_event():
                         db.commit()
                     except Exception as e:
                         db.rollback()
+                else:
+                    # Re-populate in-memory index on server reboot
+                    try:
+                        extract_pdf_and_index(existing.filepath, existing.id, existing.title)
+                    except Exception:
+                        pass
         db.close()
     except Exception:
         pass
